@@ -44,6 +44,13 @@ x.updateOrCreate 'age','12'
 
 ````
 
+Save and Load
+-------------
+
+use x.save() to save the file to the project root directory as "name".json where name is the name of your params object
+
+use x.load() to load and read the fie
+
 Issues
 ------
 
