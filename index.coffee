@@ -1,4 +1,4 @@
-class ParamList
+class ParamsList
   constructor: (@name) ->
 
     @params = {}
