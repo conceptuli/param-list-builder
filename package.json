@@ -1,0 +1,34 @@
+{
+  "name": "params-list-builder",
+  "version": "1.0.0",
+  "description": "simple params object builder that is easily extended.  Includes botht the CoffeeScript and JS versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "./text/text.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conceptuli/param-list-builder.git"
+  },
+  "keywords": [
+    "params",
+    "param",
+    "params-list",
+    "key-value",
+    "store",
+    "in",
+    "memory",
+    "db",
+    "in-memory",
+    "simple",
+    "crud",
+    "crud",
+    "conceptuli"
+  ],
+  "author": "Brian Bagdasarian <brian@conceptu.li>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conceptuli/param-list-builder/issues"
+  },
+  "homepage": "https://github.com/conceptuli/param-list-builder"
+}
