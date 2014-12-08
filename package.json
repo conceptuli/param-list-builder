@@ -1,6 +1,6 @@
 {
   "name": "params-list-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple params object builder that is easily extended.  Includes both the CoffeeScript and JS versions",
   "main": "index.js",
   "scripts": {
