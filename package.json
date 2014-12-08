@@ -1,10 +1,10 @@
 {
   "name": "params-list-builder",
-  "version": "1.0.0",
-  "description": "simple params object builder that is easily extended.  Includes botht the CoffeeScript and JS versions",
+  "version": "1.0.1",
+  "description": "simple params object builder that is easily extended.  Includes both the CoffeeScript and JS versions",
   "main": "index.js",
   "scripts": {
-    "test": "./text/text.js"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/conceptuli/param-list-builder/issues"
   },
-  "homepage": "https://github.com/conceptuli/param-list-builder"
+  "homepage": "https://github.com/conceptuli/param-list-builder",
+  "dependencies": {
+    "iced-coffee-script": "^1.8.0-b",
+    "node-uuid": "^1.4.2"
+  }
 }
