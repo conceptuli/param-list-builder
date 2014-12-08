@@ -1,15 +1,14 @@
 class ParamList
   constructor: (@name) ->
-    object = {}
-    @params = for k, v of object
-      [k] = "#{k}:#{JSON.stringify v}"
+
+    @params = {}
     this
 
   add: (k,v) ->
 
     @params[k] = v
     console.log @params
-    this
+    @params
 
 
   drop: (k) ->
@@ -31,5 +30,16 @@ class ParamList
 
     this
 
+  save: () ->
+    fs = require 'fs'
+    fileName = @name
+    fs.writeFileSync(__dirname + "/../../#{fileName}.json", JSON.stringify(@))
+    this
+  load: () ->
+    fs = require 'fs'
+    fileName = @name
+    file = fs.readFileSync(__dirname + "/../../#{fileName}.json", 'utf8')
+    if file? then console.log 'file contents:\n' + file
+    this
 
-module.exports = ParamList
+module.exports = ParamsList
